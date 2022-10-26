@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Walentinka Flowers</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Pangolin&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/iconsfont.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container">
+                <div class="header__body">
+                    <div class="header__inform">
+                        <div class="header__logo-box ibg">
+                            <a href="./index.html"><img src="./images/logo-3.jpg" alt="logo-1"></a>
+                        </div>
+                        <div class="header__name-org">
+                            <h1 class="header__name-org-title">Valentinka Flowers</h1>
+                        </div>
+                        <div class="header__haw-to-work">
+                            <p>Режим работы: 8:00 - 20:00</p>
+                        </div>
+                        <div class="header__phone">
+                            <p class="header__phone-title"><i class="fa-solid fa-phone"></i> + 375 (29) <span>526 - 99 -
+                                    32</span> </p>
+                        </div>
+                        <div class="header__basket">
+                            <a href="#" class="header__basket-link">Корзина <i
+                                    class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                    <div class="header__navigation " id="navbar">
+                        <nav class="header__nav">
+                            <ul id="menu">
+                                <li><a href="about.html">Контакты</a>
+
+                                </li>
+                                <li><a href="blog.html">Блог</a>
+
+                                </li>
+                                <li><a href="delivery.html">Доставка и Оплата</a>
+                                    <ul>
+                                        <li><a href="delivery.html#q">Способы оплаты</a></li>
+                                        <li><a href="delivery.html#w">Покупка</a></li>
+                                        <li><a href="delivery.html#e">Стоимость</a></li>
+                                        <li><a href="delivery.html#r">Доставка</a></li>
+                                        <li><a href="delivery.html#t">Возврат и претензии по качеству</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="catalog.html">Каталог</a>
+                                    <ul>
+                                        <li><a href="catalog.html">Розы</a></li>
+                                        <li><a href="catalog.html">Букеты</a></li>
+                                        <li><a href="catalog.html">Композиции</a></li>
+                                        <li><a href="catalog.html">Горшечные цветы</a></li>
+                                        <li><a href="catalog.html">Букеты невесты</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="index.html">Главная</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="header__body-mobile">
+
+                    <div id="myNav" class="overlay">
+                        <a class="closebtn" onclick="closeNav()">&times;</a>
+                        <div class="overlay-content">
+                            <a href="#myNav">Главная</a>
+                            <a href="catalog.html">Каталог</a>
+                            <a href="delivery.html">Доставка и оплата</a>
+                            <a href="blog.html">Блог</a>
+                            <a href="about.html">Контакты</a>
+                        </div>
+                    </div>
+                    <span style="font-size:50px;" onclick="openNav()">☰</span>
+
+                </div>
+
+            </div>
+        </header>
+        <main>
+            <section class="say-it">
+                <div class="say-it__slider">
+                    <div class="say-it__item">
+                        <img src="images/Image-gifts.jpg" alt="pic2">
+                        <div class="say-it__sliderText">Say It with Flowers from Valentinka</div>
+                        <div class="say-it__link">
+                            <a href="catalog.html">Перейти в каталог</a>
+                        </div>
+                    </div>
+
+                    <div class="say-it__item">
+                        <img src="images/image-buket.jpg" alt="pic1">
+                        <div class="say-it__sliderText">Exclusive Design by Best Florists</div>
+                        <div class="say-it__link">
+                            <a href="catalog.html">Перейти в каталог</a>
+                        </div>
+                    </div>
+
+                    <div class="say-it__item">
+                        <img src="Images/image-flowers.jpg" alt="pic3">
+                        <div class="say-it__sliderText">Gorgeous Flowers for Your Special Event</div>
+                        <div class="say-it__link">
+                            <a href="catalog.html">Перейти в каталог</a>
+                        </div>
+                    </div>
+
+                    <div class="say-it__item">
+                        <img src="Images/image-buket2.jpg" alt="pic4">
+                        <div class="say-it__sliderText">Hand-Tied Bouguets</div>
+                        <div class="say-it__link">
+                            <a href="catalog.html">Перейти в каталог</a>
+                        </div>
+                    </div>
+
+                    <div class="say-it__item">
+                        <img src="Images/image-buket3.jpg" alt="pic5">
+                        <div class="say-it__sliderText">We will Always Help You</div>
+                        <div class="say-it__link">
+                            <a href="catalog.html">Перейти в каталог</a>
+                        </div>
+                    </div>
+
+                    <a class="say-it__prev" onclick="minusSlide()">&#10094;</a>
+                    <a class="say-it__next" onclick="plusSlide()">&#10095;</a>
+
+                    <div class="say-it__slider-dots">
+                        <span class="say-it__slider-dots_item" onclick="currentSlide(1)"></span>
+                        <span class="say-it__slider-dots_item" onclick="currentSlide(2)"></span>
+                        <span class="say-it__slider-dots_item" onclick="currentSlide(3)"></span>
+                        <span class="say-it__slider-dots_item" onclick="currentSlide(4)"></span>
+                        <span class="say-it__slider-dots_item" onclick="currentSlide(5)"></span>
+                    </div>
+
+                </div>
+
+
+
+            </section>
+            <section class="welcome">
+                <div class="welcome__container container">
+                    <div class="welcome__body">
+                        <div class="welcome__image">
+                            <img src="./images/IMG_0719.jpg" alt="small-photo">
+                        </div>
+                        <h5 class="welcome__sub-title">Welcome</h5>
+                        <h1 class="welcome__title">Привет ! Я Юлия Житкович, флорист с многолетним опытом...</h1>
+                        <p class="welcome__text">
+                            Что делает цветочную композицию арт-объектом? Нестандартный взгляд на цветы, уникальный стиль композиций, западная структурность и сдержанность, восточный шик и плавность линий, профессиональная работа с крупными формами и сложным пространством, сочетание
+                            несочетаемых материалов. Но главное - вдохновение.
+                        </p>
+                        <div class="welcome__link">
+                            <a href="blog.html">Блог</a>
+                        </div>
+
+                    </div>
+                    <div class="welcome__big-img ibg">
+                        <img src="./images/IMG_0567.JPG" alt="Юлия">
+                    </div>
+
+                </div>
+            </section>
+            <section class="colomns">
+                <div class="colomns__container container">
+                    <div class="colomns__body">
+                        <div class="colomns__card">
+                            <div class="colomns__logo">
+                                <p class="colomns__logo-logo">
+                                    <i class="fa-solid fa-truck-fast"></i>
+                                </p>
+                            </div>
+                            <h2 class="colomns__title">
+                                Бесплатная доставка
+                            </h2>
+                            <p class="colomns__text">При каждом заказе в течении дня.</p>
+                        </div>
+                        <div class="colomns__card">
+                            <div class="colomns__logo colomns__logo_line">
+                                <p class="colomns__logo-logo">
+                                    <i class="fa-solid fa-hand-sparkles"></i>
+                                </p>
+                            </div>
+                            <h2 class="colomns__title">
+                                Ручная работа.
+                            </h2>
+                            <p class="colomns__text">
+                                Все делаем с душой...
+                            </p>
+                        </div>
+                        <div class="colomns__card">
+                            <div class="colomns__logo">
+                                <p class="colomns__logo-logo">
+                                    <i class="fa-solid fa-spa"></i>
+                                </p>
+                            </div>
+                            <h2 class="colomns__title">
+                                Эксклюзивный дизайн
+                            </h2>
+                            <p class="colomns__text">от лучшего флориста Бреста</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="flowers">
+                <div class="flowers__container container">
+                    <div class="flowers__body">
+
+                        <div class="flowers__frame">
+                            <div class="flowers__boxes">
+                                <div class="flowers__box">
+                                    <img src="./images/banner-rosy.jpg" alt="pic" class="flowers__image ibg">
+                                    <span><a href="catalog.html">Розы</a></span>
+                                </div>
+                                <div class="flowers__box">
+                                    <img src="./images/bouket.jpg" alt="pic" class="flowers__image ibg">
+                                    <span><a href="catalog.html">Букеты</a></span>
+                                </div>
+                                <div class="flowers__box">
+                                    <img src="./images/korzinka-sochniy-den-800x800.jpg" alt="pic" class="flowers__image ibg">
+                                    <span><a href="catalog.html">Композиции</a></span>
+                                </div>
+                                <div class="flowers__box">
+                                    <img src="./images/HQAS3831.JPG" alt="pic" class="flowers__image ibg">
+                                    <span><a href="catalog.html">Горшечные цветы</a></span>
+                                </div>
+                                <div class="flowers__box">
+                                    <img src="./images/buket-nevesti-banner.jpg" alt="pic" class="flowers__image ibg">
+                                    <span><a href="catalog.html">Букеты невесты</a></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="about-us">
+                <div class="about-us__container container">
+                    <h1 class="about-us__title">
+                        Цветы с доставкой в Бресте
+                    </h1>
+                    <div class="about-us__body">
+                        <div class="about-us__body-text">
+                            <div class="about-us__content">
+                                <p class="about-us__text">
+                                    Цветы - это универсальный подарок и неважно с чем и кого Вы хотите поздравить. Главное - суметь правильно подобрать для каждого случая свое индивидуальное и красивое поздравление. При помощи профессиональных флористов мы собрали для Вас лучшие букеты,
+                                    которыми Вы сможете порадовать своих близких/друзей/коллег по работе.
+                                </p>
+                                <p class="about-us__text">
+                                    Наш Магазин имеет огромный выбор <span>ВСЕГДА СВЕЖИХ РОЗ</span> абсолютно разных сортов и расцветок.Ведь ни один букет, будь он строгий и элегантный или милый и нежный, не может обойтись без роз. Они украсят любой Ваш
+                                    самый необычный подарок! Только у нас Вы сможете приобрести самые красивые и свежие розы в Бресте.Мы можем предложить Вам огромное количество букетов, учитывая все Ваши предпочтения. Если же Вы хотите особенный подарок
+                                    со вкусом, то наши флористы помогут Вам собрать самую оригинальную композицию.
+                                </p>
+                                <h4 class="about-us__subtitle">
+                                    Нашими главными преимуществами являются:
+                                </h4>
+                                <ul class="about-us__list">
+                                    <li class="about-us__list-item">
+                                        <span>Гарантированно качественные цветы, собранные в прекрасный букет цветов!</span>
+
+                                    </li>
+                                    <li class="about-us__list-item">
+                                        <span>ЦЕНА (мы составляем букетики для Вас, исходя не только из Ваших желаний, но так же и из Вашего бюджета).</span>
+                                    </li>
+                                    <li class="about-us__list-item">
+                                        <span>Подарки, благодаря которым Вы сможете сделать свой букет ещё более ярким и интересным!</span>
+                                    </li>
+                                    <li class="about-us__list-item">
+                                        <span>Быстрая доставка букетов в любой район Бреста (в случае заказа от 30 р. ДОСТАВКА БЕСПЛАТНО).</span>
+                                    </li>
+                                </ul>
+
+
+                            </div>
+
+                        </div>
+                        <div class="about-us__image ibg">
+                            <img src="./images/IMG_0553.JPG" alt="woman" class="about-us__img">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="ask">
+                <div class="ask__container container">
+                    <div class="ask__body">
+                        <h1 class="ask__title">
+                            Есть вопросы ?
+                        </h1>
+                        <h3 class="ask__sub-title">
+                            Cпросите у нас:
+                        </h3>
+                        <form action="#" class="ask__form">
+                            <div class="ask__form-up">
+                                <input type="text" name="name" placeholder="Введите Ваше имя*" class="ask__name">
+                                <input type="email" name="your-email" placeholder="Введите Ваш email*" class="ask__email">
+                            </div>
+                            <div class="ask__form-down">
+                                <textarea name="your-message" class="ask__message" cols="45" rows="10" placeholder="Введите Ваше сообщение*"></textarea>
+                            </div>
+                        </form>
+                        <div class="ask__buttons">
+                            <form action="#" class="ask__buttons-form">
+                                <input type="checkbox">
+                                <p>Я согласен на обработку персолнальных данных</p>
+                            </form>
+                            <div class="ask__link">
+                                <a href="#">Отправить</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="map">
+                <div class="map__container container">
+                    <div class="map_body">
+                        <h1 class="map__title">
+                            Адреса магазинов
+                        </h1>
+                        <div class="map__target">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4935.9029239965985!2d24.069382357361498!3d51.788773305978005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x472144fac337a25d%3A0xc403494cde1e05f3!2z0KbQstC10YLQvtGH0L3Ri9C5INC80LDQs9Cw0LfQuNC9IMKr0JLQsNC70LXQvdGC0LjQvdC60LDCuw!5e0!3m2!1sru!2sby!4v1651233377708!5m2!1sru!2sby"
+                                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </main>
+        <footer class="footer">
+            <div class="footer__container container">
+                <div class="footer__body">
+                    <div class="footer__colomns">
+                        <div class="footer__colomn colomn-1">
+                            <div class="colomn-1__logo">
+                                <a href="index.html" class="colomn-1__link-logo">Walentinka <br>Flowers</a>
+                            </div>
+                            <div class="colomn-1__text">
+                                Мы вдохновляемся каждый день, изучая последние трендовые направления из мира флористики. Мы стараемся максимально угодить пожеланиям клиентов и гарантируем широкий ассортимент цветочной продукции!
+
+                            </div>
+                            <div class="colomn-1__batton">
+                                <a href="#" class="colomn-1__link"> Перейти в каталог</a>
+                            </div>
+                        </div>
+                        <div class="footer__colomn colomn-2">
+
+                            <h5 class="colomn-2__title">Полезные ссылки</h5>
+                            <div class="colomn-2__links">
+                                <a href="https://zvetnoe.ru/club/poleznye-stati/floristika-dlya-nachinayushchikh-/" class="colomn-2__link" target="blank">Флористика для начинающих</a>
+                                <a href="https://vse-kursy.by/brest/design/floristika/" class="colomn-2__link" target="blank">Курсы флористики</a>
+                                <a href="https://brest.deal.by/Floristicheskie-materialy" class="colomn-2__link" target="blank">Флористические материалы</a>
+                                <a href="https://lady.tochka.net/83354-25-neobychnykh-idei-dlya-nevest-primery-svadebnykh-buketov/" class="colomn-2__link" target="blank">Примеры Свадебных букетов</a>
+                                <a href="https://core.ac.uk/download/pdf/42049881.pdf" class="colomn-2__link" target="blank">История флористики</a>
+
+                            </div>
+
+                        </div>
+                        <div class="footer__colomn colomn-3">
+                            <h5 class="colomn-3__title">Навигация</h5>
+                            <div class="colomn-3__links">
+                                <a href="#menu" class="colomn-3__link">Главная</a>
+                                <a href="catalog.html" class="colomn-3__link">Каталог</a>
+                                <a href="delivery.html" class="colomn-3__link">Доставка и оплата</a>
+                                <a href="blog.html" class="colomn-3__link">Блог</a>
+                                <a href="about.html" class="colomn-3__link">Контакты</a>
+
+                            </div>
+                        </div>
+                        <div class="footer__colomn colomn-4">
+                            <div class="colomn-4__rows">
+                                <span><i class="fa-solid fa-location-dot"></i></span>
+                                <p class="colomn-4__text">Цветочный магазин "Валентинка" Брестская обл. ул. Лермонтова 8, Малорита</p>
+                            </div>
+                            <div class="colomn-4__rows">
+                                <span><i class="fa-solid fa-phone"></i></span>
+                                <p class="colomn-4__text">+375 (29) 526 99 32</p>
+                            </div>
+                            <div class="colomn-4__rows">
+                                <span><i class="fa-solid fa-envelope"></i></span>
+                                <p class="colomn-4__text">detkovich.valya@mail.ru</p>
+                            </div>
+                            <div class="colomn-4__rows">
+                                <span><i class="fa-regular fa-clock"></i></span>
+                                <p class="colomn-4__text">Без выходных с 8:00 - 20:00</p>
+                            </div>
+                            <div class="colomn-4__rows">
+                                <div class="colomn-4__links">
+                                    <a href="#" class="colomn-4__link" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                                    <a href="https://t.me/valentinka_flowers" class="colomn-4__link" target="blank"><i class="fa-solid fa-paper-plane"></i></a>
+                                    <a href="#" class="colomn-4__link" target="_blank"><i class="fa-brands fa-viber"></i></a>
+                                    <a href="https://www.instagram.com/valentinka_flowers/" target="_blank" class="colomn-4__link"><i class="fa-brands fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__copyright">
+                        Copyright &#169; 2022 All rights reserved &#9168; This template is made with &#9825; By Detkovich
+                    </div>
+                </div>
+            </div>
+            <video src="./videos/smoke-background-optimized.mp4" class="footer__video" autoplay loop muted></video>
+        </footer>
+
+    </div>
+    <script src="./js/scripts.js"></script>
+</body>
+
+</html>
